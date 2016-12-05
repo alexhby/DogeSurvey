@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Create Survey - Otaku High Five!</title>
+</head>
+<body bgcolor="white" text="black" background="background.jpg">
+<center>
+<h1 style="color:#FFB873; font-family:COURIER NEW; font-size:50;">Create a Survey</h1>
+	<center>
+		<img src="doge_r.gif" />
+		<p style ="color:#333399; font-family:PERPETUA;">Directions on how to create a survey:<br>
+		1. Think a name of your survey.<br>
+		2.Then, input your questions :D<br>
+		3.  Using ADD to add a question<br>
+		4.  Using NEW to create a new survey <br>
+		</p>
+		<form width="100%" style ="color:#333399; font-family:PERPETUA;" name="input" action="cgi-bin/newSurvey.py" method="get">
+		    
+			Title of the survey:
+		
+			<input type="text" name="surveyName" size=20>
+			<br>
+		<center><input type="submit" value="NEW"></center>
+		
+		</form>
+		<br>
+		<br>
+		<br>
+		<form name="input3" action="cgi-bin/endSurvey.py" method="get">
+		<input type="Submit" value="Done">
+		</form>
+
+		<a href="index.html">Go back to Welcome Page</a>
+		
+		<p><img src="coverphoto.jpg" width="80%" height="35%"/></p>
+	</center>
+</body>
+</html>
