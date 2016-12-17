@@ -1,2 +1,2 @@
-# DogeSurvey
+# Survey Creator
 A survey website
